@@ -1,0 +1,30 @@
+{
+  "name": "exercise-2",
+  "version": "1.0.0",
+  "description": "Create a command-line program that implements CRUD using a CSV file as a data source.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siteminder-grad-program/node-exercise-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siteminder-grad-program/node-exercise-2/issues"
+  },
+  "homepage": "https://github.com/siteminder-grad-program/node-exercise-2#readme",
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "csvjson": "^5.1.0",
+    "process.argv": "^0.6.0"
+  }
+}
